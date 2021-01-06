@@ -1,0 +1,26 @@
+1-lancer man 
+2-l'intrepréteur demande quelle page dans le manuelle vous cherchez exemple "man man"
+3-lancer man ls
+4- espace (la fenetre qui se suit)
+ entrée(la ligne qui se suit)
+ b(s'échapper) G(Aller à la dernière ligne du fichier)
+ p(retour au première ligne)
+ /(rechercher sur la ligne correspondante) 
+ n(répéter la recherche précédebte) 
+ q(quitter la fentre actuel) 
+5-<<manls>> ne fonction pas , parceque aucune commande trouvable existe sur ce nom .
+  la commande <<man 3 ls>> nous donne que pas d'entrer manuelle pour ls dans la section 3.
+6-lancement des commande <<ls>> ,<<ls -l>> ,<<ls -h>> ,<<ls -l -h>> et <<ls -lh>>
+7-<<ls -lct>> permet de tirer les fichiers et répertoires par date de modification décroissante 
+ <<ls -a>> permet l'affichage des fichiers et repertoires cachés.
+ <<ls /etc/>> afficher le contenu du fichier etc
+ <<lsusb>> affiche les informations sur les bus USB et les périphériques connectés .
+  <<ls --color>> si nous le donne une fonction change la couleur par exemple "ls --color=auto" la couleur change automatiquement
+  sinon en tape "ls --color" tout seul il nous donne la fonction du "ls"
+8- <<pwd>> affiche le repertoire en cours.
+ quand lance <<cd />> puis <<pwd>> retourne à /
+9- tester <<cd>> ,<<cd ~>> ,<<cd..>> ,<<cd /usr /bin>> et <<cd ->> 
+10-creation d'un repertoire sur l'utilisateur avec mkdir et supression du meme repertoire avec rmdir et retourner à la racine
+11-création du repertoire au meme emplacement sans changer le repertoire
+12-création du fichier avec <<touch>> dans le dossier l'utilisateur 
+13-
